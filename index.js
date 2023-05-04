@@ -24,7 +24,7 @@ const app = express();
 
 redis.on('connect', (err) => {
   if (err) {
-    console.log('Could not establish connection with redis');
+    console.log('Could not establish connection with redis changed here');
   } else {
     console.log('Connected to redis successfully');
   }
